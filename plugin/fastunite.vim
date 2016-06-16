@@ -199,10 +199,10 @@ endfunction
 "   :help unite-tag-customize
 "
 
-autocmd BufEnter *
-\   if empty(&buftype)
-\|    nnoremap <buffer> <C-]> :<C-u>UniteWithCursorWord -buffer-name=tag -no-start-insert -immediately tag<CR>
-\| endif
+" autocmd BufEnter *
+" \   if empty(&buftype)
+" \|    nnoremap <buffer> <C-]> :<C-u>UniteWithCursorWord -buffer-name=tag -no-start-insert -immediately tag<CR>
+" \| endif
 
 "
 " Improved Grep:
